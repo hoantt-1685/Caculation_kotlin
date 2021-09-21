@@ -82,9 +82,6 @@ class MainActivity : AppCompatActivity() {
         binding.equals.setOnClickListener {
             showResult()
         }
-        binding.delete.setOnClickListener {
-            binding.input.text = addToInput("(")
-        }
     }
 
     private fun addToInput(btnValue: String): String {
